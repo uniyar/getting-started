@@ -1,5 +1,4 @@
 :profile_page: https://github.com/uniyar
-:best_practices_page: https://github.com/uniyar/best-practices
 :portal_link: https://portal.uniyar.ac.ru/
 :register_link: https://portal.uniyar.ac.ru/company/personal/user/14486/
 :github_registration_link: https://github.com/join
@@ -10,7 +9,7 @@
 
 Начнем с описания первых шагов по началу работы с link:{profile_page}[GitHub-организацией ЯрГУ]. GitHub-организацией — это общий аккаунт, в котором участники могут управлять своими проектами, используя свой личный аккаунт GitHub. GitHub-организацией Ярославского государственного университета им. П.Г. Демидова предназначена для хранения, управления и публикации исследовательских проектов. Ниже ты найдешь инструкции по подключению к организации и общие инструкции по её использованию. Внизу страницы приведены ресурсы по основам использования Git для контроля версий.
 
-Описания лучших практик приведены по ссылке link:{best_practices_page}[Лучшие практики по Git @uniyar].
+Описания лучших практик приведены по ссылке link:docs/best-practices.adoc[Лучшие практики по Git @uniyar].
 
 
 == Подключение к организации GitHub
