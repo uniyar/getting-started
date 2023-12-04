@@ -127,4 +127,4 @@ Courses:
 
 == Контактная информация
 
-Тебе нужна помощь или у есть другие пожелания? link:{https://github.com/uniyar/getting-started/issues/new}[Создай ишью] (issue) или напиши по электронной почте link:{mailto:github@uniyar.ac.ru}[github@uniyar.ac.ru].
+Тебе нужна помощь или у есть другие пожелания? link:{https://github.com/uniyar/getting-started/issues/new}[Создай ишью] (issue) или напиши по электронной почте link:{mailto:github@uniyar.ac.ru}[github@uniyar.ac.ru]. Мы также будем рады всем желающим внести вклад в этот репозиторий.

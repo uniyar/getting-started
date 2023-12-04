@@ -1,3 +1,53 @@
 = Лучшие практики
 
 Добро пожаловать на страницу лучших практик для git, разработки исследовательского программного обеспечения и управления исследовательскими данными. Этот документ был создан для исследователей и сотрудников Ярославского государственного университета им. П.Г. Демидова. Мы настоятельно рекомендуем делиться здесь лучшими практиками с коллегами.
+
+== Темы
+
+=== Использование Git и GitHub
+
+Git — это бесплатное программное обеспечение с открытым исходным кодом для управления версиями. Оно было создано в 2005 году и сегодня является стандартом в области контроля версий при разработке программного обеспечения. GitHub — это онлайн-сервис на базе Git, который облегчает совместную работу и взаимодействие группы разработчиков. Также он может использоваться для резервного копирования локальной работы. Изучение Git и GitHub в начале может показаться сложным, но поверь, это того стоит.
+
+**Быстрый старт**
+
+. link:https://github.com/join[Создай аккаунт на GitHub].
+. link:https://desktop.github.com/[Скачай и установи GitHub Desktop].
+. link:https://github.com/uniyar/getting-started[Добавься в GitHub-организацию ЯрГУ] (опционально).
+. link:https://docs.github.com/ru/desktop/overview[Создай свой первый репозиторий с Github Desktop].
+
+**Дополнительная информация**
+
+- link:https://practicum.yandex.ru/blog/chto-takoe-github-kak-on-rabotaet/[Что такое GitHub и как он работает].
+- link:https://skills.github.com[Изучи как использовать GitHub с помощью интерактивных курсов, как для новичков и для экспертов].
+
+=== Код в стиле FAIR
+
+link:https://ru.wikipedia.org/wiki/FAIR-данные[FAIR-данные] — это данные, соответствующие принципам **F**indability, **A**ccessibility, **I**nteroperability, **R**eusability (находимость, доступность, совместимость и переиспользование). Акроним FAIR можно также перевести как «честные», «справедливые». Указанные принципы были представлены в link:https://www.nature.com/articles/sdata201618[мартовской статье 2016 года в журнале _Scientific Data_] консорциумом из нескольких ученых и организаций. В настоящее время принципы FAIR  широко используемым в управлении исследовательскими данными. Недавно принципы FAIR были адаптированы к link:https://www.nature.com/articles/s41597-022-01710-x[исследовательскому программному обеспечению].
+
+**Быстрый старт**
+
+- link:https://fair-software.eu/[Пять рекомендаций для программного обеспечения FAIR (fair-software.eu)].
+
+**Инструменты**
+
+- link:https://github.com/fair-software/howfairis[Python-пакет для анализа соответствия репозитория на GitHub или GitLab рекомендациям fair-software.eu].
+
+**Дополнительно**
+
+- Статья о принципах FAIR для программного обеспечения: link:https://content.iospress.com/articles/data-science/ds190026[Towards FAIR principles for research software (2020)].
+- Статья о принципах FAIR для данных: link:https://www.nature.com/articles/sdata201618[The FAIR Guiding Principles for scientific data management and stewardship (2016)].
+- Рабочая группа *FAIR for Research Software (FAIR4RS)* https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg.
+
+=== Наглядность
+
+Чтобы другие могли легко использовать твои выдающиеся работы, они должны иметь возможность найти и тебя, и твои проекты. Платформа GitHub предоставляет множество возможностей сделать твоё исследовательское программное обеспечение более заметным.
+
+**Быстрый старт**
+
+- Заполни link:https://docs.github.com/ru/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-profile[информацию о себе и добавь README в профиль своего GitHub-аккаунта].
+- Добавь упоминание своего GitHub-профиля на link:https://cris.uniyar.ac.ru/search?configuration=person[странице сотрудника в *cris.uniyar.ac.ru*].
+- Добавь link:https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/classifying-your-repository-with-topics[топики] к своему репозиторию для улучшения link:https://github.com/topics[поиска по темам]. Для упоминания нашего университета рекомендуется использовать топик link:https://github.com/topics/uniyar[`#uniyar`].
+
+**Дополнительно**
+
+- Используй link:https://pages.github.com/[Github Pages] для публикации сайта проекта с ссылками на все соответствующие репозитории и указанием профилей участников.
