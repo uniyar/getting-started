@@ -108,14 +108,13 @@ WARNING: *Не используй опцию* «Передать собстве�
 
 Ресурсы:
 
-- [Introduction to Git and GitHub using GitHub Desktop](https://zenodo.org/record/8232705) (by the [Geo Data team](https://geo-data-support.sites.uu.nl/))
-- [Introduction to Git and GitHub using command line](https://swcarpentry.github.io/git-novice/) (by Software Carpentries)
-- [Introduction to the GitHub Webinterface](docs/web-interface.md)
-- [GitHub Skills](https://skills.github.com)
-- [Managing your team on UU GitHub](docs/managing-your-team.md)
+- https://youtu.be/O00FTZDxD0o?si=szTpW-TX2jD7WwTT[GIT - Полный Курс Git и GitHub Для Начинающих (4 ЧАСА)].
+- link:docs/web-interface.md[Введение в графический интерфейс GitHub].
+- link:https://skills.github.com[Интерактивные курсы по GitHub].
+- link:docs/managing-your-team.md[Управление командой GitHub-организации ЯрГУ].
 
-Courses:
-- [Best practices for writing reproducible code](https://www.uu.nl/en/research/research-data-management/training-workshops/best-practices-for-writing-reproducible-code)
+Курсы:
+- https://www.uu.nl/en/research/research-data-management/training-workshops/best-practices-for-writing-reproducible-code[Best practices for writing reproducible code]
 
 == Участие
 
