@@ -1,0 +1,188 @@
+:toc2:
+
+As a researcher you might be interested in this GitHub thing you have been hearing so much about.
+This article outlines what benefits you might get in the short and long term, what challenges you may face, and what to expect from the adoption of GitHub.
+
+Как исследователю тебе может быть интересно что это за штука `GitHub`, о которой столько разговоров вокруг. Эта статья описывает, какие выгоды ты можешь получить в короткой и долгой перспективе, с какими трудностями ты можешь столкнуться и что ожидать от использования `GitHub`.
+
+== Что такое `GitHub`
+
+Для понимания `GitHub` сначала нужно объяснить лежащую в его основе технологию системы контроля версий `git`. Что делает `git`, так это предоставляет способ сохранять файлы вместе информацией о версиях (отсюда и контроль версий). Представь, что ты работаешь с документом, и тебя есть две версии — до рецензирования и после:
+
+* `статья_до_рецензирования.doc`
+* `статья_после_рецензирования.doc`
+
+Вместе с `git` ты можешь иметь один файл с именем `статья.doc`, но у него будет две версии: `до_рецензирования` и `после_рецензирования`. Система позволяет переключаться между версиями и работать с любой из них. Кроме того, каждое «сохранение» может быть снабжено дополнительной информацией (описанием) версии, чтобы было легче её отыскать в будущем. Кроме того, для текстовых файлов, вроде программного кода, `git` позволяет отыскивать точные места в файле, в которых были правки.
+
+Система `git` работает локально, то есть прямо на твоём компьютере, это уже достаточно полезный инструмент. Суть в том, что `git` добавляет дополнительное измерение к тому, как хранятся файлы. Теперь они находятся не только в определённом месте на твоём компьютере, но и во времени.
+
+Если говорить про `GitHub`, то это как бы `Dropbox` или `Яндекс.Диск` для файлов, которыми ты управляешь с помощью `git`.
+
+То, что `git` делает локально, `GitHub` делает в облаке. То есть ты можешь загрузить файлы на `GitHub`, и они будут доступны в любом месте, где есть Интернет. Также можно поделиться своими файлами с другими людьми, чтобы они могли скачивать их или даже вносить изменения. Таким образом, `GitHub` позволяет совместно работать с другими людьми над одними и теми же файлами и разные люди могут создавать разные версии одного и того же файла, которые впоследствии можно объединить в один файл.
+
+Например, ты можешь написать введение к статье и загрузить документ на `GitHub`. Твой коллега скачивает этот документ и  дополняет заготовку твоей статьи разделом «Методы», после чего выгружает новую версию документа на `GitHub`. После этого ты расширяешь введение, добавляя в него что-то из раздела «Методы», и, таким образом, создаешь новую версию документа. Таким образом, вы совместно работаете над одним и тем же документом, и каждый из вас в любой момент может скачать последнюю версию файла и продолжить работу над ним.
+
+Такой способ работает относительно нормально с текстом, но особенно он хорош при работе с программным кодом. Представь, что твоя команда часто работает с неким устройством, которое генерирует CSV-файл с результатами эксперимента. Твой коллега создал скрипт, который интерпретирует данные и генерирует диаграмму размаха (aka «ящик с усами»). Но для твоего исследования требуется  линейная диаграмма. Вместо того, чтобы договариваться с коллегой и просить передать тебе скрипт для внесения изменений, ты забираешь его из репозитория на `GitHub`, расширяешь свои код своими модификациями для создания линейной диаграммы и затем снова выгружаешь его на `GitHub`, чтобы другие участники исследовательской команды могли тоже строить при необходимости линейные диаграммы.
+
+Однако можно пойти дальше и поделиться своими файлами не только с коллегами по команде, но со всеми в мире. Твоя программа будет доступна _публично_, и разные люди из разных стран смогут скачивать её и использовать в своих исследованиях. Если популярность твоего инструмента будет расти, то вместе с ней будет расти и твоя репутацию в научном сообществе. Более того вклад в совместное улучшение программы смогут внести все желающие!
+
+На опубликованный код можно будет ссылаться в статьях и публикациях, указывая конкретную версию в истории изменений, чтобы облегчить проверку результатов и повторное использование программы.
+
+`GitHub` предоставляет множество других возможностей, которые будут (конечно не все) объяснены чуть позже в этом документе, но в своей основе `GitHub` — это место для хранения файлов в «облаке».
+
+== С чего начать
+
+
+`GitHub` и `git` обладают множеством функций, которые без сомнения улучшат твой рабочий процесс разными способами, но не все инвестиции времени одинаково окупаются.
+
+Используя даже минимальный набор возможностей `git` и `GitHub`, ты получишь значительные выгоды. Под начальным освоением понимаются следующие шаги:
+
+* [ ] Создай учетную запись на `GitHub`.
+* [ ] Получи доступ в `GitHub`-организацию ЯрГУ.
+* [ ] Скачай и установи приложение `GitHub Desktop`.
+* [ ] Изредка выкладывай свой код на `GitHub` с помощью `GitHub Desktop`.
+
+Выполнение этих действий потребует максимум 30 минут на первые три шага, и по 5 минут каждый раз, когда ты будешь выкладывать код на `GitHub`. За эти усилия ты получишь улучшение личного рабочего процесса, поможешь своим коллегам (команде), увеличишь свои влияние и репутацию в научном сообществе.
+
+=== Выгода для тебя
+
+Наиболее важным улучшением станет то, что у тебя будут **резервные копии** твоего кода. Храня его в облаке, ты всегда сможешь восстановить утраченный программный код. При чем не только самую последнюю версию, но и **каждую версию**, которая когда-либо была выгружена. Ты сможешь просматривать запомненные варианты и восстанавливать их в любое время.
+
+Размещая свой код на `GitHub`, ты сможешь ссылаться на него в своих исследованиях. Помимо цитирования традиционных источников в научных статьях ты сможешь **ссылаться на свой `GitHub`-репозиторий**. А если ты найдешь на `GitHub` другое полезное для исследования программное обеспечение, то можно сослаться и на него!
+
+Использование `GitHub` также поможет **найти полезное программное обеспечение** для твоего исследовательского проекта. Тебе не придется каждый раз «изобретать велосипед» и выяснять, как именно следует считывать данные из CSV-файла.
+
+Подобно публикациям в научных журналах, **код тоже является публикацией**. Твой общедоступный код образует **портфолио**, которое можно демонстрировать потенциальным заказчикам, особенно если твои амбиции связаны с IT-сферой. Кроме того `GitHub` позволяет получать обратную связь — узнавать сколько людей заинтересовались и/или используют твое программное обеспечение. Это хорошая мотивация для дальнейшей разработки, чтобы программное обеспечение стало более полезным и для тебя, и для твоих коллег-исследователей.
+
+=== Выгода для коллектива
+
+Поскольку ты размещаешь программный код на `GitHub`, твои **коллеги могут легко получить доступ к нему** без необходимости обмениваться кодом через флешки, почту или непредназначенные для работы с кодом сервисы. Не стоит забывать, что другие пользователи кода смогут вносить в него изменения, чтобы сделать программу еще лучше и удобнее в использовании.
+
+С другой стороны, если ты работаешь в команде и твой напарник решил сменить место работы, то **ваша программа не исчезает** вместе с ним.
+
+Помимо прочего `GitHub` позволяет систематизировано отслеживать ошибки и указывать на недостающие возможности программы, чтобы вы вместе с командой могли их учитывать при постепенном развитии кода.
+
+=== Выгода для научного сообщества
+
+Публикуя программный код на `GitHub`, ты вносишь вклад в инструментарий научного сообщества в целом. Ты *предоставляешь строительные блоки* для других исследователей, способствуя проведению более качественных и надежных исследований. Более того, ты улучшаешь свою *репутацию*, следуя стандартам `Open Science` и `FAIR`. Открывая такой *публичный интерфейс* к своей работе, ты «приглашаешь» незнакомых людей вносить улучшения в программный код и в твои научные изыскания. Размещение программного кода в `GitHub-организации` ЯрГУ приведёт к тому, что твоя работа будет более заметной (по крайней мере среди тех, кто интересуется разработками ЯрГУ). Публикуя программный код на `GitHub`, ты также значительно упрощаешь процесс воспроизведения и проверки научных результатов, что в долгосрочной перспективе приведёт к *повышению качества исследований*.
+
+== Углубленные возможности
+
+Чем больше возможностей `GitHub` ты используешь, тем больше будут и выгоды.
+
+Общепризнанной модели использования `GitHub` в публикации научных результатов и средств их получения не существует, поэтому мы можем лишь предполагать какие долгосрочные преимущества можно получить, адаптируя подходы из области профессиональной разработки программного обеспечения.
+
+Обобщив опыт других учёныхfootnote:[https://marciovm.com/i-want-a-github-of-science] footnote:[https://marciovm.com/i-want-a-github-of-science] footnote:[https://peerj.com/preprints/3159v2/] и указанные наработки, мы можем сделать следующие предположения:
+
+
+* Применяя `GitHub Actions` можно автоматически запускать код каждый раз, когда что-то на `GitHub` меняется:
+  ** публиковать препринты с каждой новой версией в качестве формы динамической публикации,
+  ** проверять и тестировать программное обеспечение с каждой новой версией и оценивать, не нарушает ли новая версия старую функциональность,
+  ** использовать искусственный интеллект (ИИ) для оценки публикуемого кода, и получать рекомендации по его улучшению.
+* Используя `GitHub Issues` можно отслеживать будущее развитие программного обеспечения или другого создаваемого контента:
+  ** создавать списки задач для разных членов команды,
+  ** внешние пользователи могут сообщать о найденных ошибках и проблемах,
+  ** запрашивать новые функции для стороннего программного обеспечения.
+* Используя `GitHub Pull Requests` можно проводить рецензирование программного кода:
+  ** отслеживать не весь код, а только предлагаемые изменения,
+  ** учитывать все комментарии и предложения,
+* Используя `devcontainers` можно создавать виртуальные рабочие пространства, которые позволят тебе работать с `GitHub` независимо от конфигурации твоего компьютера.
+* Используя `GitHub Discussions` можно выстраивать сотрудничество внутри и вне команды в формате длинных текстовых сообщений.
+* Благодаря открытости программного кода, ты сможешь создавать все более полезные и удобные возможности, сотрудничая с коллегами по всему миру.
+* Количество цитирований твоих научных публикаций будет расти вместе с количеством `GitHub`-публикаций.
+
+Overall, the quality of science improves by having everything accessible publicly.
+This is a proven concept in the software world where open source is a huge driving force in high-quality software.
+
+
+== Misconceptions, worries, and problems
+
+This section attempts to address common arguments against using `GitHub`.
+Depending on your level of adoption, familiarity with code, and other non-technical factors, you may have reservations about using `GitHub`.
+If your concerns are not (fully) addressed in this section, we invite you to open an issue for this repository explaining it further, and we will try to expand this section.
+
+=== *My code is not good enough to be public*
+
+If your code is good enough to draw scientific conclusions, then it is good enough to be published.
+One might even argue that especially in that case it should be published.
+Generally speaking, some crappy code is still better than no code at all.
+Unlike editorial boards, your code does not need to meet certain quality standards.
+There's plenty of undocumented code with mistakes that gets used all the time because it does what it needs to do.
+In your case, the code should reproduce your results with the same data.
+As long as it does that, it is perfect.
+Any extras are just bonus.
+
+=== *People will point out mistakes in my code*
+
+While that is true, it is not something to fear, but welcome.
+Bugs in code can mean that incorrect conclusions are drawn.
+The sooner they are caught, the better.
+There might be a worry of having to make retractions in your research and that is indeed a very real risk.
+Evidencefootnote:[https://journals.sagepub.com/doi/pdf/10.1177/2515245918776632] suggests however that self-retraction does not harm your reputation and actually can improve it within a science community.
+Unlike retraction because of obscuring of facts, or in this case, code.
+
+=== *Company X won't let me*
+
+Companies might have some influence over the publishing of data, but most of the time they will not care about the tools used to process the data.
+When using `GitHub`, it is primarily about the code and not the data on which that code works.
+Even however if a company insists on not having the code be open, you can still use `GitHub`.
+You can set the visibility of a code repository to **private** and still reap all the benefits for working on the code within your team.
+
+=== *It is too hard for me*
+
+Without a doubt you will have to invest some time into learning the tools around `git` and `GitHub`.
+Depending on your level of technical proficiency it might be easier or it might be more difficult.
+Regardless, the investment is always worth it.
+And in the modern technological landscape, there are many tools that make using `GitHub` easier.
+Also, there is a great deal of resources online to learn `GitHub` in different ways, ranging from text and videos, to video games that teach you `git`.
+
+=== *There is no time to learn*
+
+The time you win by not having to re-invent software every few months, is much greater than the time you will have to invest into using the most basic parts of `GitHub`.
+Just having a centralized place for code within your team alone and not having to share zipfiles through chats and e-mail alone will save you this time.
+This is not taking into account the amount of time you can win by incrementally improving the software over many weeks, months, and years.
+
+=== *Nobody does it this way*
+
+While indeed not many academic institutions are using such a model, increasingly more are.
+Consider Stanford University that published open-source versions of Alpaca.
+Additionally, if the desire is to remain working in the same traditional ways for the next 100 years, then that is a problem in itself.
+Looking at the open-source community there is a lot of living proof that this model is highly effective in innovation and as a researcher you should at the very least give it a shot.
+
+=== *I have no time to maintain code*
+Nobody is entitled to demand technical support for freely provided code: if the feedback is unhelpful, ignore it.
+
+== How to get started
+
+The best way to get started is to put some code on to github as fast as possible.
+First, head on over to https://github.com/UtrechtUniversity/getting-started[UU Getting Started] and follow the instructions to make an account, download GitHub Desktop, and join the UU organization.
+Then pick some code you have recently used and put it on `GitHub`.
+And that's it - you have officially started.
+
+From this point onward, you can play around in the `GitHub` interface. Some resources to help you get started:
+- [A brief explanation of the web interface](web-interface.md).
+- [How to create and manage a team under the Utrecht University organization](managing-your-team.md)
+
+== Resources
+
+- https://docs.github.com/en/desktop[GitHub Desktop Documentation]
+- https://tom.preston-werner.com/2009/05/19/the-git-parable.html[Object Model]
+- https://ohmygit.org/[Git Game]
+- https://docs.github.com/en/get-started/quickstart/set-up-git[Terminal Tutorial]
+- https://www.uu.nl/en/research/research-data-management/walk-in-hours-workshops/walk-in-hours-research-data-software[Walk-in Hours on Monday]
+
+// <!-- == Advanced Features
+// #== Issues
+// #== Projects
+// #== Discussions
+// #== Actions
+// #== Branches
+// #== Pull requests
+// #== GitHub search -->
+
+
+
+[^fallibility]: https://journals.sagepub.com/doi/pdf/10.1177/2515245918776632
+[^gh-for-science-marcio]: https://marciovm.com/i-want-a-github-of-science
+[^gh-for-science-banks]: https://marciovm.com/i-want-a-github-of-science
+[^j-bryan]: https://peerj.com/preprints/3159v2/
