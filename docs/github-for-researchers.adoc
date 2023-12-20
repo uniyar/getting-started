@@ -91,98 +91,85 @@ This article outlines what benefits you might get in the short and long term, wh
 * Благодаря открытости программного кода, ты сможешь создавать все более полезные и удобные возможности, сотрудничая с коллегами по всему миру.
 * Количество цитирований твоих научных публикаций будет расти вместе с количеством `GitHub`-публикаций.
 
-Overall, the quality of science improves by having everything accessible publicly.
-This is a proven concept in the software world where open source is a huge driving force in high-quality software.
+В целом, качество научных исследований повысится из-за того, что все материалы находятся в открытом доступе.
+В мире индустриальной разработки открытость — проверенная концепция, обладающая огромной движущей силой в создании высококачественного программного обеспечения.
+
+== Распространенные заблуждения, опасения и проблемы
+
+Этот раздел призван развеять распространенные аргументы против использования `GitHub`.
+
+В зависимости от уровня понимания программирования, знакомства с кодом и других нетехнических факторов, у тебя могут быть сомнения по поводу использования `GitHub`.
+Если эти опасения не нашли (полного) отражения в этом разделе, мы предлагаем тебе link:https://github.com/uniyar/getting-started/issues/new[открыть тему (issue)] в этом репозитории, объяснив сомнения подробнее, чтобы мы могли расширить этот раздел.
+
+=== Мой код не достаточно хорош, чтобы быть публичным
+
+Если твой код достаточно хорош, чтобы делать на его основе научные выводы, то он достаточно хорош для того, чтобы быть опубликованным.
+Можно даже утверждать, что именно этом случае он прямо таки требует, чтобы его опубликовали.
+В общем и целом, плохой код все же лучше, чем никакой.
+В отличии от правил редакционных комитетов, твой код не должен соответствовать определенным стандартам качества (пока что).
+Огромное количество низкокачественного программного кода с ошибками и без документации ежедневно используется во всем мире, пока это ПО приносит пользу и делает то, что должно, оно будет «в ходу» независимо от качества.
+В твоём случае код должен воспроизводить результаты исследования на исходных данных, это и есть критерий качества.
+Пока он делает это, он идеален.
+Все остальное — всего лишь дополнительные понты .
+
+=== Люди будут указывать на ошибки в моем коде
+
+Это верно, но стоит ли этого бояться? Наоборот надо это приветствовать.
+Ошибки в коде могут означать, что выводы исследования неверны.
+Чем раньше они будут обнаружены, тем лучше.
+
+Может возникнуть опасение, что ты будешь вынужден отзывать свои исследования из-за ошибок, и это действительно вполне реальный риск. Однако самоотзыв не вредит репутацииfootnote:[https://journals.sagepub.com/doi/pdf/10.1177/2515245918776632] и даже может её улучшить. В отличие от подлога.
 
 
-== Misconceptions, worries, and problems
+=== Компания X не позволит мне
 
-This section attempts to address common arguments against using `GitHub`.
-Depending on your level of adoption, familiarity with code, and other non-technical factors, you may have reservations about using `GitHub`.
-If your concerns are not (fully) addressed in this section, we invite you to open an issue for this repository explaining it further, and we will try to expand this section.
+Компании могут оказывать некоторое влияние на публикацию данных, но в большинстве случаев им не важно, какие инструменты используются для обработки данных.
+При использовании `GitHub`, в первую очередь речь идет о коде, а не о данных.
+Даже если компания настаивает на том, чтобы код был закрытым, ты все равно можешь использовать `GitHub`.
+Можно установить видимость репозитория с кодом на `private` (частный) и получать все преимущества работы с кодом внутри команды в закрытом режиме.
 
-=== *My code is not good enough to be public*
+=== Это очень сложно для меня
 
-If your code is good enough to draw scientific conclusions, then it is good enough to be published.
-One might even argue that especially in that case it should be published.
-Generally speaking, some crappy code is still better than no code at all.
-Unlike editorial boards, your code does not need to meet certain quality standards.
-There's plenty of undocumented code with mistakes that gets used all the time because it does what it needs to do.
-In your case, the code should reproduce your results with the same data.
-As long as it does that, it is perfect.
-Any extras are just bonus.
+Безусловно, тебе придется потратить некоторое время на изучение инструментов `git` и `GitHub`.
+В зависимости от уровня технической подготовки это может быть легче или сложнее.
+В любом случае, вложенные усилия всегда окупаются.
+В современном технологическом ландшафте существует множество инструментов, которые облегчают работу с `GitHub`.
+Кроме того, в сети есть множество ресурсов, которые помогут изучить `GitHub` разными способами, от инструкций и видеоуроков до обучающих работе с `git` видеоигр.
 
-=== *People will point out mistakes in my code*
+=== У меня нет времени учиться
 
-While that is true, it is not something to fear, but welcome.
-Bugs in code can mean that incorrect conclusions are drawn.
-The sooner they are caught, the better.
-There might be a worry of having to make retractions in your research and that is indeed a very real risk.
-Evidencefootnote:[https://journals.sagepub.com/doi/pdf/10.1177/2515245918776632] suggests however that self-retraction does not harm your reputation and actually can improve it within a science community.
-Unlike retraction because of obscuring of facts, or in this case, code.
+Сэкономленное время от регулярного переизобретения программного кода каждые несколько месяцев, гораздо больше времени, которое тебе придется потратить на освоение базовых возможностей `GitHub`.
+Уже само наличие централизованного места для программного кода внутри команды позволит сэкономить много времени — не придется делиться архивами с программным кодом через чаты и/или электронную почту.
+Всё это без учёта времени, которое ты выиграешь от постепенного улучшения своего программного обеспечения на протяжении многих недель, месяцев и лет.
 
-=== *Company X won't let me*
+=== Никто так не делает
 
-Companies might have some influence over the publishing of data, but most of the time they will not care about the tools used to process the data.
-When using `GitHub`, it is primarily about the code and not the data on which that code works.
-Even however if a company insists on not having the code be open, you can still use `GitHub`.
-You can set the visibility of a code repository to **private** and still reap all the benefits for working on the code within your team.
+Действительно не так много учебных и научных заведений используют `GitHub` для публикации научных результатов. Однако их все больше и больше.
+Например, Стэнфордский университет опубликовал открытые версии Alpaca.
+Кроме того, если ты хочешь продолжать работать в том же традиционном режиме еще 100 лет, то это само по себе проблема.
+Взглянув на сообщество открытого программного обеспечения, можно обнаружть множество примеров эффективной в инновациях открытости. Как исследователь, ты должен, хотя бы попробовать это.
 
-=== *It is too hard for me*
+=== У меня нет времени поддерживать код
 
-Without a doubt you will have to invest some time into learning the tools around `git` and `GitHub`.
-Depending on your level of technical proficiency it might be easier or it might be more difficult.
-Regardless, the investment is always worth it.
-And in the modern technological landscape, there are many tools that make using `GitHub` easier.
-Also, there is a great deal of resources online to learn `GitHub` in different ways, ranging from text and videos, to video games that teach you `git`.
+Никто не имеет права требовать технической поддержки для свободно предоставляемого кода: если обратная связь бесполезена, игнорируй её.
 
-=== *There is no time to learn*
+== Как начать
 
-The time you win by not having to re-invent software every few months, is much greater than the time you will have to invest into using the most basic parts of `GitHub`.
-Just having a centralized place for code within your team alone and not having to share zipfiles through chats and e-mail alone will save you this time.
-This is not taking into account the amount of time you can win by incrementally improving the software over many weeks, months, and years.
+Лучший способ начать — это как можно быстрее выложить какой-нибудь свой программный код на `GitHub`.
+Для этого нужно перейти link:https://github.com/uniyar/getting-started[по ссылке и следовать инструкциям] по созданию учетной записи, загрузке `GitHub Desktop` и присоединению к организации ЯрГУ.
 
-=== *Nobody does it this way*
+Затем выбери какой-нибудь актуальный свой программный код и выложи его на `GitHub`.
 
-While indeed not many academic institutions are using such a model, increasingly more are.
-Consider Stanford University that published open-source versions of Alpaca.
-Additionally, if the desire is to remain working in the same traditional ways for the next 100 years, then that is a problem in itself.
-Looking at the open-source community there is a lot of living proof that this model is highly effective in innovation and as a researcher you should at the very least give it a shot.
+И вот — официальное начало положено.
 
-=== *I have no time to maintain code*
-Nobody is entitled to demand technical support for freely provided code: if the feedback is unhelpful, ignore it.
+С этого момента ты можешь начать исследовать в интерфейс `GitHub`. Вот ресурсы, которые помогут начать:
+- [Краткое описание интерфейса](web-interface.md).
+- [Как создать команду в `GitHub` и управлять ею](managing-your-team.md)
 
-== How to get started
+== Дополнительные ресурсы
 
-The best way to get started is to put some code on to github as fast as possible.
-First, head on over to https://github.com/UtrechtUniversity/getting-started[UU Getting Started] and follow the instructions to make an account, download GitHub Desktop, and join the UU organization.
-Then pick some code you have recently used and put it on `GitHub`.
-And that's it - you have officially started.
-
-From this point onward, you can play around in the `GitHub` interface. Some resources to help you get started:
-- [A brief explanation of the web interface](web-interface.md).
-- [How to create and manage a team under the Utrecht University organization](managing-your-team.md)
-
-== Resources
-
-- https://docs.github.com/en/desktop[GitHub Desktop Documentation]
+- https://docs.github.com/ru/desktop[Документация GitHub Desktop]
 - https://tom.preston-werner.com/2009/05/19/the-git-parable.html[Object Model]
-- https://ohmygit.org/[Git Game]
-- https://docs.github.com/en/get-started/quickstart/set-up-git[Terminal Tutorial]
-- https://www.uu.nl/en/research/research-data-management/walk-in-hours-workshops/walk-in-hours-research-data-software[Walk-in Hours on Monday]
-
-// <!-- == Advanced Features
-// #== Issues
-// #== Projects
-// #== Discussions
-// #== Actions
-// #== Branches
-// #== Pull requests
-// #== GitHub search -->
-
-
-
-[^fallibility]: https://journals.sagepub.com/doi/pdf/10.1177/2515245918776632
-[^gh-for-science-marcio]: https://marciovm.com/i-want-a-github-of-science
-[^gh-for-science-banks]: https://marciovm.com/i-want-a-github-of-science
-[^j-bryan]: https://peerj.com/preprints/3159v2/
+- https://ohmygit.org/[Git-игра]
+- https://docs.github.com/en/get-started/quickstart/set-up-git[Туториал по командной строке]
+- https://guides.github.com/activities/hello-world/[Hello World]
