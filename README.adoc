@@ -39,8 +39,8 @@ WARNING: После включения двухфакторной аутенти
   . link:{https://docs.github.com/ru/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on}[Авторизация SSH-ключа для использования в GitHub-организации ЯрГУ].
   . link:{https://docs.github.com/ru/get-started/getting-started-with-git/managing-remote-repositories?platform=windows}[Изменение URL-адресов всех существующих репозиториев с HTTPS на SSH].
 * PAT доступ:
-  . [Авторизация персонального токена доступа для использования в GitHub-организации ЯрГУ](https://docs.github.com/ru/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on)
-  . [Персональный токен доступа и GitHub](https://happygitwithr.com/https-pat.html)
+  . https://docs.github.com/ru/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on[Авторизация персонального токена доступа для использования в GitHub-организации ЯрГУ]
+  . https://happygitwithr.com/https-pat.html[Персональный токен доступа и GitHub]
 
 == Использование
 
@@ -63,7 +63,7 @@ WARNING: После включения двухфакторной аутенти
 
 === GitHub Pages
 
-Ты можешь использовать GitHub Pages для продвижения исследовательских проектов, например, публикуя веб-сайт проекта. Для целей дизайна можно использовать логотип ЯрГУ. Однако следует воздержаться от копирования дизайна, относящегося к корпоративному веб-сайту link:{https://uniyar.ac.ru}[университета].
+Ты можешь использовать GitHub Pages для продвижения исследовательских проектов, например, публикуя веб-сайт проекта. Для целей дизайна можно использовать логотип ЯрГУ. Однако следует воздержаться от копирования дизайна, относящегося к корпоративному веб-сайту link:https://uniyar.ac.ru[университета].
 
 === Рекомендации по именованию репозиториев
 
@@ -77,11 +77,11 @@ WARNING: После включения двухфакторной аутенти
 
 === Создание репозиториев
 
-Как только ты попадешь в GitHub-организацию ЯрГУ, следуя описанным выше шагам, тебе будет предоставлено разрешение на создание репозиториев в организации. Изучи link:{https://docs.github.com/ru/github/creating-cloning-and-archiving-repositories/creating-a-new-repository}[документацию GitHub] для получения инструкций по созданию репозитория.
+Как только ты попадешь в GitHub-организацию ЯрГУ, следуя описанным выше шагам, тебе будет предоставлено разрешение на создание репозиториев в организации. Изучи link:https://docs.github.com/ru/github/creating-cloning-and-archiving-repositories/creating-a-new-repository[документацию GitHub] для получения инструкций по созданию репозитория.
 
 === Создание команд
 
-Создавай команды для управления репозиториями и формированием группы коллег, работающих над проектом. Сразу после попадании в GitHub-организацию ЯрГУ у тебя будет возможность создавать команды. Изучи link:{https://docs.github.com/ru/organizations/organizing-members-into-teams}[документацию GitHub] для получения инструкций по созданию команды. [Подробнее о том, как управлять командой в GitHub-организации ЯрГУ](docs/managing-your-team.md)
+Создавай команды для управления репозиториями и формированием группы коллег, работающих над проектом. Сразу после попадании в GitHub-организацию ЯрГУ у тебя будет возможность создавать команды. Изучи link:https://docs.github.com/ru/organizations/organizing-members-into-teams[документацию GitHub] для получения инструкций по созданию команды. [Подробнее о том, как управлять командой в GitHub-организации ЯрГУ](docs/managing-your-team.md)
 
 === Приглашение коллег
 
